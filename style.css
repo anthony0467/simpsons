@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -53,6 +41,14 @@ body{
 
 *{
     font-family:Arial, sans-serif;
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    background-color: #1F72C0;
+    padding: 0.5rem 0;
 }
 
 main{
@@ -96,19 +92,21 @@ aside{
     color: #fff;
 }
 
+aside figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 aside figure img{
     border: 1px solid white;
+    width: 75%;
 }
 p{
  text-align: justify;
  font-size: 14px;
 }
-figcaption{
-    font-size: 17px;
-    font-weight: bold;
-    padding-top: .5rem;
-    padding-bottom: 1rem;
-}
+
 
 img{
     display: block;
@@ -116,17 +114,19 @@ img{
     width: 100%;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    font-size: 24px;
-    background-color: #1F72C0;
-    padding: .5rem 0;
-}
-
-h2{
     font-size: 22px;
     font-weight: bold;
     color: #FDD116;
+    font-size: 24px;
+    padding-bottom: 1rem;
+    
+}
+
+h2{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
 }
 
 a{
