@@ -69,6 +69,7 @@ footer{
 
 footer p{
     color: #fff;
+    font-family: Arial, sans-serif;
 }
 
 nav ul{
@@ -130,6 +131,12 @@ h2{
 
 a{
     color: #fff;
+    transition: .35s;
+}
+
+a:hover{
+    color: #FDD116;
+    transition: .35s;
 }
 
 
